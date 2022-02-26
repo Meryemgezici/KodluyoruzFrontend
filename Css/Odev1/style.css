@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+/* Bütün paragraflar */
+p{
+    font-size: 24px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+/* Başlıklar */
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    margin: 0;
+    padding-bottom: 0.3em;
+}
+/* nav */
+.menu {
+    font-size: 40px;
+    color: #2C3333;
+    text-decoration: none;
+    border: 3px #D3DEDC inset;
+    border-radius: 0.5em;
+    padding: 0.1em;
+    margin: 0;
+}
+.home-item{
+    margin-left: 17em;
+}
+.seasons-item{
+    margin-left:1em ;
+}
+.cast-item{
+    margin-left:1em ;
+}
+/* img */
+img {
+    width: 100%;
+    margin-top: 2em;
+}
+
+/* index.html bilgiler */
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.elementor-heading-title{
+    color: #B8405E;
+}
+
+/* cast.html deki gif */
+.gif{
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+}
+
+/* seasons.html deki sezonlar */
+.seasons {
+    color: #333;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.season{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+   
+}
+
+.seasons .season .season-img {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-right: 0.5rem;
+    /* margin-top: 1rem; */
+   
+} 
+.seasons .season .season-info .season-title{
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 40px;
+    padding-left: 1rem;
+}
+
+.seasons .season .season-info .season-episode{
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    font-size: 40px;
+
+}
+.seasons .season .season-info .rating{
+    letter-spacing: 2px;
+    font-size: 30px;
+}
